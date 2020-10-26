@@ -27,11 +27,14 @@
   <component name="ChangeListManager">
     <list default="true" id="6abad560-dc72-41c3-b95b-f14ac98ff6bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/controller/CommentController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/model/Comment.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/ImageHoster/model/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/java/ImageHoster/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/java/ImageHoster/service/CommentService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/templates/images/image.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/resources/templates/users/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
@@ -60,12 +63,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1jQQfHSpm7I3sTIt3fVgWwyoJXK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -80,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603733940145</updated>
       <workItem from="1603733943887" duration="1134000" />
-      <workItem from="1603735287147" duration="452000" />
+      <workItem from="1603735287147" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Changes">
       <created>1603735594215</created>
@@ -89,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603735594215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature Implemented">
+      <created>1603735859653</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603735859653</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,13 +121,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Changes" />
+    <MESSAGE value="Feature Implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature Implemented" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1603735597498">
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2" timestamp="1603735868218">
       <screen x="0" y="23" width="1680" height="947" />
     </state>
-    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.23.1680.947/1680.23.1920.1057@0.23.1680.947" timestamp="1603735597498" />
+    <state x="440" y="236" key="Vcs.Push.Dialog.v2/0.23.1680.947/1680.23.1920.1057@0.23.1680.947" timestamp="1603735868218" />
   </component>
 </project>
